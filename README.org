@@ -17,7 +17,7 @@ The folder layout looks like this:
 . \\
 └── Project
   ├── bd \\
-  │   └── design_1 \\
+  │   └── design_1 \\
   ├── ip \\
   ├── Makefile \\
   ├── scripts \\
