@@ -15,7 +15,7 @@ Items under version control in a typical Xilinx Vivado FPGA project:
 The folder layout looks like this:
 
 . \\
-└── Project \\
+└── Project
   ├── bd \\
   │   └── design_1 \\
   ├── ip \\
