@@ -27,7 +27,7 @@ The folder layout looks like this:
   │   └── recreate_prj.tcl
   ├── sdk
   ├── work
-  └── xdc
+  └── xdc 
 
 + bd :: the block design file (.bd)
 # + CI :: used fo continuous integration
