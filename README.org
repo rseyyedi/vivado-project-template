@@ -14,20 +14,20 @@ Items under version control in a typical Xilinx Vivado FPGA project:
 
 The folder layout looks like this:
 
-.
-└── Project
-  ├── bd
-  │   └── design_1
-  ├── ip
-  ├── Makefile
-  ├── scripts
-  │   ├── build_bitstream.tcl
-  │   ├── build_fpga.sh
-  │   ├── create_project_tcl.tcl
-  │   └── recreate_prj.tcl
-  ├── sdk
-  ├── work
-  └── xdc 
+.\\
+└── Project\\
+  ├── bd\\
+  │   └── design_1\\
+  ├── ip\\
+  ├── Makefile\\
+  ├── scripts\\
+  │   ├── build_bitstream.tcl\\
+  │   ├── build_fpga.sh\\
+  │   ├── create_project.tcl\\
+  │   └── recreate_prj.tcl\\
+  ├── sdk\\
+  ├── work\\
+  └── xdc\\
 
 + bd :: the block design file (.bd)
 # + CI :: used fo continuous integration
