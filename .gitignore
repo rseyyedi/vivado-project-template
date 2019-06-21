@@ -1,4 +1,4 @@
-vivado/*
+work/*
 bd/**/hdl
 bd/**/hw_handoff
 bd/**/ip
@@ -7,6 +7,5 @@ bd/**/sim
 bd/**/synth
 bd/**/ui
 *.bxml
-*.xdc
 *.jou
 *.log
