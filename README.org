@@ -47,7 +47,7 @@ The folder layout looks like this:
 1. Create a new git local repository and add the files to it.
 #+begin_src org 
 $ git init
-~/vivado-project-template-master/.git/
+~/vivado-project-template/.git/
 $ git add .
 #+end_src
 
