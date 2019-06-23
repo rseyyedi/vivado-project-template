@@ -7,7 +7,7 @@ set newfile  [open $script_name w+]
 while {[eof $origfile] != 1} { 
     gets $origfile lineInfo 
     if [ string equal $lineInfo "# Set 'sources_1' fileset file properties for local files"] {
-    	puts $newfile "make_wrapper -files \[get_files *\${_xil_proj_name_}.bd\] -top -import"
+    	puts $newfile "make_wrapper -files \[get_files *.bd\] -top -import"
     }
     if {! [string match "*file normalize *_wrapper.v*" $lineInfo]} {
     	puts $newfile $lineInfo
